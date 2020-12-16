@@ -51,7 +51,7 @@ export default function RecipeReviewCard() {
     <Card className={classes.root}>
       <CardHeader
         avatar={
-          <Avatar aria-label="Profile" className={classes.avatar}>
+          <Avatar aria-label="Portfolio" className={classes.avatar}>
             P
           </Avatar>
         }
@@ -61,12 +61,12 @@ export default function RecipeReviewCard() {
           </IconButton>
         }
         title="Audra Dagenais"
-        subheader="Profile"
+        subheader="Portfolio"
       />
       <CardMedia
         className={classes.media}
         image="/static/images/cards/paella.jpg"
-        title="Audra Dagenais Profile"
+        title="Audra Dagenais Portfolio"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
