@@ -76,7 +76,7 @@ const AccordionComponent = () => {
                 <Card>
                   <Card.Img
                     variant="top"
-                    src="holder.js/100px180?text=Image cap"
+                    src="assets\images\start_page.png"
                   />
                   <Card.Body>
                     <Card.Title>Food Bank Finder</Card.Title>
@@ -110,7 +110,7 @@ const AccordionComponent = () => {
                       size="lg"
                       type="button"
                     >
-                      Heroku
+                      https://calm-ridge-31543.herokuapp.com/
                     </Button>
                   </Card.Body>
                 </Card>
@@ -139,10 +139,19 @@ const AccordionComponent = () => {
                       app.
                     </ListGroupItem>
                   </ListGroup>
+                  <Button
+                      href="https://github.com/audluc/Project-2"
+                      variant="dark"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                      Github
+                    </Button>
                   <Card.Body>
                     <Card.Link href="https://github.com/audluc/Project-2"></Card.Link>
                     <Card.Link href="#">
-                      https://ancient-earth-94263.herokuapp.com/
+                      "https://ancient-earth-94263.herokuapp.com"
                     </Card.Link>
                   </Card.Body>
                 </Card>
@@ -167,7 +176,9 @@ const AccordionComponent = () => {
             <h5>
               Sheriff Service Technician <small>2013 to Present</small>
             </h5>
-            <h6>Calaveras County Sheriff’s Office <small>San Andreas, CA</small></h6>
+            <h6>
+              Calaveras County Sheriff’s Office <small>San Andreas, CA</small>
+            </h6>
             <ul>
               <li>
                 Analyze crimes to identify perpetrators while working in
@@ -178,7 +189,7 @@ const AccordionComponent = () => {
                 spots within jurisdictions
               </li>
             </ul>
-            <hr className="my-3"/>
+            <hr className="my-3" />
           </Card.Body>
         </Accordion.Collapse>
       </Card>
