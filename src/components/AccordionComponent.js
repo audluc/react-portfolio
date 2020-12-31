@@ -447,47 +447,63 @@ const AccordionComponent = () => {
               Education
             </h3>
             <ul>
-            <h5>Full-Stack Web Development Certification Bootcamp</h5>
-            <h6>
-              University of California, Davis <small>2020</small>
-            </h6>
+              <h5>Full-Stack Web Development Certification Bootcamp</h5>
+              <h6>
+                University of California, Davis <small>2020</small>
+              </h6>
             </ul>
             <ul>
-            <h5>Crime and Intelligence Analysis Certification</h5>
-            <h6>
-              Department of Justice/Sacramento State University
-              <small> 2015 </small>
-            </h6>
+              <h5>Crime and Intelligence Analysis Certification</h5>
+              <h6>
+                Department of Justice/Sacramento State University
+                <small> 2015 </small>
+              </h6>
             </ul>
             <ul>
-            <h5>Bachelor's Degree in Management</h5>
-            <h6>
-              Saint Mary's College <small>June, 2008</small>
-            </h6>
+              <h5>Bachelor's Degree in Management</h5>
+              <h6>
+                Saint Mary's College <small>June, 2008</small>
+              </h6>
             </ul>
             <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
               Technical Skills
             </h3>
             <ul>
               <h5>
-              Experienced in MERN Stack, HTML, CSS, and Bootstrap with responsive designs 
+                Experienced in MERN Stack, HTML, CSS, and Bootstrap with
+                responsive designs
               </h5>
               <h5>
-              Also skilled in Javascript, Web API’s, client-side storage, events, and event handling  
+                Also skilled in Javascript, Web API’s, client-side storage,
+                events, and event handling
               </h5>
+              <h5>Knowledgeable in JQuery, Ajax, and Jest testing</h5>
               <h5>
-              Knowledgeable in JQuery, Ajax, and Jest testing 
-              </h5>
-              <h5>
-              Proficient in: 
-              Node.js, IndexedDB, Sequelize, MySQL, MongoDB, Webpack, ES6, ORM, Mongoose, React.js, Express 
+                Proficient in: Node.js, IndexedDB, Sequelize, MySQL, MongoDB,
+                Webpack, ES6, ORM, Mongoose, React.js, Express
               </h5>
             </ul>
             <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
               Awards
             </h3>
-            <h5>Superior Service Accommondation</h5> <small>Calaveras County Sheriff's Office 2019</small>
+            <h5>Superior Service Accommondation</h5>{" "}
+            <small>Calaveras County Sheriff's Office 2019</small>
             <h5>TimeLife - Person of the Year Award</h5> <small> 2006 </small>
+            <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
+              Contact Me!
+            </h3>
+            <h5>audluc44@gmail.com or (209)256-7841</h5>
+            <ul className="list-inline my-3 d-flex justify-content-evenly">
+              <li className="list-inline-item flex-fill p-0 m-0">
+                <SocialIcon url="https://github.com/audluc" />
+              </li>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                <SocialIcon url="https://www.linkedin.com/in/audra-dagenais-a44375b3/" />
+              </li>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                <SocialIcon url="mailto:audluc44@gmail.com" />
+              </li>
+            </ul>
           </Card.Body>
         </Accordion.Collapse>
       </Card>
