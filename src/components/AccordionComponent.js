@@ -231,6 +231,78 @@ const AccordionComponent = () => {
                   </Card.Body>
                 </Card>
               </Col>
+              <Col md={6}>
+                <Card>
+                  <Card.Img variant="top" src="assets\images\codeQuiz.png" />
+                  <Card.Body>
+                    <Card.Title>Code Quiz</Card.Title>
+                    <Card.Text>
+                    App is a quiz that includes a timer, high score keeper to include initials, multiple choice answers, and when answered incorrectly the time decreases dramatically. I created questions with alerts for the answers Created a variable for the countdown timer Function for the start of the games as well as coordinating with the timer Function designating the timer is down to zero and the game is over Console logs to show the coding Added an event listener with click function to enable the correct answer If the answer is incorrect the timer is depleted by 10 seconds as a penalty for the incorrect answer 
+                    </Card.Text>
+                  </Card.Body>
+                  <ListGroup className="list-group-flush">
+                    <ListGroupItem>
+                      Technologies used: HTML, CSS, Javascript, JQuery, Media Queries
+                    </ListGroupItem>
+                  </ListGroup>
+                  <Card.Body>
+                    <Button
+                      href="https://github.com/audluc/Code-Quiz"
+                      variant="dark"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                      Github
+                    </Button>
+                    <Button
+                      href="#"
+                      variant="warning"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                       https://audluc.github.io/Code-Quiz/
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={6}>
+                <Card>
+                  <Card.Img variant="top" src="assets\images\codeQuiz.png" />
+                  <Card.Body>
+                    <Card.Title>Code Quiz</Card.Title>
+                    <Card.Text>
+                    App is a quiz that includes a timer, high score keeper to include initials, multiple choice answers, and when answered incorrectly the time decreases dramatically. I created questions with alerts for the answers Created a variable for the countdown timer Function for the start of the games as well as coordinating with the timer Function designating the timer is down to zero and the game is over Console logs to show the coding Added an event listener with click function to enable the correct answer If the answer is incorrect the timer is depleted by 10 seconds as a penalty for the incorrect answer 
+                    </Card.Text>
+                  </Card.Body>
+                  <ListGroup className="list-group-flush">
+                    <ListGroupItem>
+                      Technologies used: HTML, CSS, Javascript, JQuery, Media Queries
+                    </ListGroupItem>
+                  </ListGroup>
+                  <Card.Body>
+                    <Button
+                      href="https://github.com/audluc/Code-Quiz"
+                      variant="dark"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                      Github
+                    </Button>
+                    <Button
+                      href="#"
+                      variant="warning"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                       https://audluc.github.io/Code-Quiz/
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </Col>
             </Row>
           </Card.Body>
         </Accordion.Collapse>
