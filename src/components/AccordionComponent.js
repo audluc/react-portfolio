@@ -40,6 +40,10 @@ const AccordionComponent = () => {
                   <li className="list-inline-item flex-fill p-0 m-0">
                     <SocialIcon url="mailto:audluc44@gmail.com" />
                   </li>
+                  <li className="list-inline-item flex-fill p-0 m-0">
+                    <a href="tel:+1209-256-7841">209-256-7841</a>
+                   
+                  </li>
                 </ul>
               </Col>
               <Col md={8}>
@@ -367,6 +371,17 @@ const AccordionComponent = () => {
                 </Card>
               </Col>
             </Row>
+            <ul className="list-inline my-3 d-flex justify-content-evenly">
+                  <li className="list-inline-item flex-fill p-0 m-0">
+                    <SocialIcon url="https://github.com/audluc" />
+                  </li>
+                  <li className="list-inline-item flex-fill p-0 m-0">
+                    <SocialIcon url="https://www.linkedin.com/in/audra-dagenais-a44375b3/" />
+                  </li>
+                  <li className="list-inline-item flex-fill p-0 m-0">
+                    <SocialIcon url="mailto:audluc44@gmail.com" />
+                  </li>
+                </ul>
           </Card.Body>
         </Accordion.Collapse>
       </Card>
