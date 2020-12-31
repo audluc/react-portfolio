@@ -40,9 +40,6 @@ const AccordionComponent = () => {
                   <li className="list-inline-item flex-fill p-0 m-0">
                     <SocialIcon url="mailto:audluc44@gmail.com" />
                   </li>
-                  <li className="list-inline-item flex-fill p-0 m-0">
-                    <a href="tel:+1209-256-7841">209-256-7841</a>
-                  </li>
                 </ul>
               </Col>
               <Col md={8}>
@@ -492,7 +489,7 @@ const AccordionComponent = () => {
             <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
               Contact Me!
             </h3>
-            <h5>audluc44@gmail.com or (209)256-7841</h5>
+            <h2>audluc44@gmail.com or (209)256-7841</h2>
             <ul className="list-inline my-3 d-flex justify-content-evenly">
               <li className="list-inline-item flex-fill p-0 m-0">
                 <SocialIcon url="https://github.com/audluc" />
