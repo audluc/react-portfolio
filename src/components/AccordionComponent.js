@@ -42,7 +42,6 @@ const AccordionComponent = () => {
                   </li>
                   <li className="list-inline-item flex-fill p-0 m-0">
                     <a href="tel:+1209-256-7841">209-256-7841</a>
-                   
                   </li>
                 </ul>
               </Col>
@@ -165,15 +164,20 @@ const AccordionComponent = () => {
               </Col>
               <Col md={6}>
                 <Card>
-                  <Card.Img variant="top" src="assets\images\screenshot-burger.png" />
+                  <Card.Img
+                    variant="top"
+                    src="assets\images\screenshot-burger.png"
+                  />
                   <Card.Body>
                     <Card.Title>Burger</Card.Title>
                     <Card.Text>
-                    Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-
-                    Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
-
-                    Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
+                      Eat-Da-Burger! is a restaurant app that lets users input
+                      the names of burgers they'd like to eat. Whenever a user
+                      submits a burger's name, your app will display the burger
+                      on the left side of the page -- waiting to be devoured.
+                      Each burger in the waiting area also has a Devour it!
+                      button. When the user clicks it, the burger will move to
+                      the right side of the page.
                     </Card.Text>
                   </Card.Body>
                   <ListGroup className="list-group-flush">
@@ -338,8 +342,15 @@ const AccordionComponent = () => {
                   <Card.Body>
                     <Card.Title>Workday Scheduler</Card.Title>
                     <Card.Text>
-                    Create a working calendar that includes the currrent day display, timeblocks for standard business hours; these hours would turn a different color to represent; past, present, and future in regards to the current time, a save button for each of the hour increments, and the ability to save and recall data entered into the time blocks as todos for your day.
-                    The code includes; Current date, local storage, color change depending on time, textarea for calendar, save button, recalling data input
+                      Create a working calendar that includes the currrent day
+                      display, timeblocks for standard business hours; these
+                      hours would turn a different color to represent; past,
+                      present, and future in regards to the current time, a save
+                      button for each of the hour increments, and the ability to
+                      save and recall data entered into the time blocks as todos
+                      for your day. The code includes; Current date, local
+                      storage, color change depending on time, textarea for
+                      calendar, save button, recalling data input
                     </Card.Text>
                   </Card.Body>
                   <ListGroup className="list-group-flush">
@@ -372,16 +383,16 @@ const AccordionComponent = () => {
               </Col>
             </Row>
             <ul className="list-inline my-3 d-flex justify-content-evenly">
-                  <li className="list-inline-item flex-fill p-0 m-0">
-                    <SocialIcon url="https://github.com/audluc" />
-                  </li>
-                  <li className="list-inline-item flex-fill p-0 m-0">
-                    <SocialIcon url="https://www.linkedin.com/in/audra-dagenais-a44375b3/" />
-                  </li>
-                  <li className="list-inline-item flex-fill p-0 m-0">
-                    <SocialIcon url="mailto:audluc44@gmail.com" />
-                  </li>
-                </ul>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                <SocialIcon url="https://github.com/audluc" />
+              </li>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                <SocialIcon url="https://www.linkedin.com/in/audra-dagenais-a44375b3/" />
+              </li>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                <SocialIcon url="mailto:audluc44@gmail.com" />
+              </li>
+            </ul>
           </Card.Body>
         </Accordion.Collapse>
       </Card>
@@ -415,6 +426,48 @@ const AccordionComponent = () => {
               </li>
             </ul>
             <hr className="my-3" />
+            <h5>
+              Owned and Operated <small>2006 to 2013</small>
+            </h5>
+            <h6>
+              TADS Unlimited <small>Valley Springs, CA</small>
+            </h6>
+            <ul>
+              <li>
+                Successful E-Commerce business operating six simultaneous
+                websites
+              </li>
+              <li>
+                Integrated the building of websites, controlling the financials
+                and inventory, authored contracts with dropship suppliers.
+              </li>
+            </ul>
+            <hr className="my-3" />
+            <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
+              Education
+            </h3>
+            <ul>
+            <h5>Full-Stack Web Development Certification Bootcamp</h5>
+            <h6>
+              University of California, Davis <small>2020</small>
+            </h6>
+            </ul>
+            <ul>
+            <h5>Crime and Intelligence Analysis Certification</h5>
+            <h6>
+              Department of Justice/Sacramento State University
+              <small> 2015 </small>
+            </h6>
+            </ul>
+            <ul>
+            <h5>Bachelor's Degree in Management</h5>
+            <h6>
+              Saint Mary's College <small>June, 2008</small>
+            </h6>
+            </ul>
+            <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
+              Technical Skills
+            </h3>
           </Card.Body>
         </Accordion.Collapse>
       </Card>
