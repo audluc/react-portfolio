@@ -469,23 +469,25 @@ const AccordionComponent = () => {
               Technical Skills
             </h3>
             <ul>
-              <li>
+              <h5>
               Experienced in MERN Stack, HTML, CSS, and Bootstrap with responsive designs 
-              </li>
-              <li>
+              </h5>
+              <h5>
               Also skilled in Javascript, Web API’s, client-side storage, events, and event handling  
-              </li>
-              <li>
+              </h5>
+              <h5>
               Knowledgeable in JQuery, Ajax, and Jest testing 
-              </li>
-              <li>
+              </h5>
+              <h5>
               Proficient in: 
               Node.js, IndexedDB, Sequelize, MySQL, MongoDB, Webpack, ES6, ORM, Mongoose, React.js, Express 
-              </li>
+              </h5>
             </ul>
             <h3 className="p-2 mb-3 ml-0 pl-0 border-bottom border-dark">
               Awards
             </h3>
+            <h5>Superior Service Accommondation</h5> <small>Calaveras County Sheriff's Office 2019</small>
+            <h5>TimeLife - Person of the Year Award</h5> <small> 2006 </small>
           </Card.Body>
         </Accordion.Collapse>
       </Card>
