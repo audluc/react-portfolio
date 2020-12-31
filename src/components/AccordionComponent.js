@@ -161,6 +161,47 @@ const AccordionComponent = () => {
               </Col>
               <Col md={6}>
                 <Card>
+                  <Card.Img variant="top" src="assets\images\screenshot-burger.png" />
+                  <Card.Body>
+                    <Card.Title>Burger</Card.Title>
+                    <Card.Text>
+                    Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+                    Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+
+                    Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
+                    </Card.Text>
+                  </Card.Body>
+                  <ListGroup className="list-group-flush">
+                    <ListGroupItem>
+                      Technologies used: MySQL, Node, Express, Handlebars, Media
+                      Queries and a homemade ORM
+                    </ListGroupItem>
+                  </ListGroup>
+                  <Card.Body>
+                    <Button
+                      href="https://github.com/audluc/burger"
+                      variant="dark"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                      Github
+                    </Button>
+                    <Button
+                      href="#"
+                      variant="warning"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                      https://stormy-savannah-69546.herokuapp.com/
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={6}>
+                <Card>
                   <Card.Img variant="top" src="assets\images\noteTaker.png" />
                   <Card.Body>
                     <Card.Title>Note-Taker</Card.Title>
