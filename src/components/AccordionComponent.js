@@ -195,6 +195,42 @@ const AccordionComponent = () => {
                   </Card.Body>
                 </Card>
               </Col>
+              <Col md={6}>
+                <Card>
+                  <Card.Img variant="top" src="assets\images\chuckScreenshot.png" />
+                  <Card.Body>
+                    <Card.Title>Chuck Norris Fan Page</Card.Title>
+                    <Card.Text>
+                      This app allows Chuck Norris Fans to immerse themselves into everything Chuck Norris. Providing the user with GIFS, Jokes, Quotes and Movie Posters all about the legend, Chuck Norris. 
+                    </Card.Text>
+                  </Card.Body>
+                  <ListGroup className="list-group-flush">
+                    <ListGroupItem>
+                      Technologies used: HTML, CSS, Javascript, JQuery, AJAX, Bulma
+                    </ListGroupItem>
+                  </ListGroup>
+                  <Card.Body>
+                    <Button
+                      href="https://github.com/audluc/The-Magic-D-Project"
+                      variant="dark"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                      Github
+                    </Button>
+                    <Button
+                      href="#"
+                      variant="warning"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                       https://the-magic-dragon.github.io/The-Magic-D-Project-/
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </Col>
             </Row>
           </Card.Body>
         </Accordion.Collapse>
