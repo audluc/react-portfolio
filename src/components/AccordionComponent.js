@@ -74,10 +74,7 @@ const AccordionComponent = () => {
             <Row>
               <Col md={6}>
                 <Card>
-                  <Card.Img
-                    variant="top"
-                    src="assets\images\start_page.png"
-                  />
+                  <Card.Img variant="top" src="assets\images\start_page.png" />
                   <Card.Body>
                     <Card.Title>Food Bank Finder</Card.Title>
                     <Card.Text>
@@ -140,7 +137,45 @@ const AccordionComponent = () => {
                     </ListGroupItem>
                   </ListGroup>
                   <Button
-                      href="https://github.com/audluc/Project-2"
+                    href="https://github.com/audluc/Project-2"
+                    variant="dark"
+                    block
+                    size="lg"
+                    type="button"
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    href="#"
+                    variant="warning"
+                    block
+                    size="lg"
+                    type="button"
+                  >
+                    https://ancient-earth-94263.herokuapp.com/
+                  </Button>
+                  <Card.Body>
+                    <Card.Link href="https://github.com/audluc/Project-2"></Card.Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={6}>
+                <Card>
+                  <Card.Img variant="top" src="assets\images\noteTaker.png" />
+                  <Card.Body>
+                    <Card.Title>Note-Taker</Card.Title>
+                    <Card.Text>
+                      This app allows users to enter notes or reminders. These notes and reminders will save until deleted by user. Essentially, keeping the user more organized and prepared. 
+                    </Card.Text>
+                  </Card.Body>
+                  <ListGroup className="list-group-flush">
+                    <ListGroupItem>
+                      Technologies used: Express, CSS, JSON
+                    </ListGroupItem>
+                  </ListGroup>
+                  <Card.Body>
+                    <Button
+                      href="https://github.com/audluc/Note-Taker"
                       variant="dark"
                       block
                       size="lg"
@@ -148,11 +183,15 @@ const AccordionComponent = () => {
                     >
                       Github
                     </Button>
-                  <Card.Body>
-                    <Card.Link href="https://github.com/audluc/Project-2"></Card.Link>
-                    <Card.Link href="#">
-                      "https://ancient-earth-94263.herokuapp.com"
-                    </Card.Link>
+                    <Button
+                      href="#"
+                      variant="warning"
+                      block
+                      size="lg"
+                      type="button"
+                    >
+                       https://ancient-journey-92327.herokuapp.com
+                    </Button>
                   </Card.Body>
                 </Card>
               </Col>
