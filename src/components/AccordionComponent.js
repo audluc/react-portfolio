@@ -40,6 +40,9 @@ const AccordionComponent = () => {
                   <li className="list-inline-item flex-fill p-0 m-0">
                     <SocialIcon url="mailto:audluc44@gmail.com" />
                   </li>
+                  <li className="list-inline-item flex-fill p-0 m-0">
+                    <SocialIcon url="https://docs.google.com/document/d/1mVVwXqePMeQ1aDZA3t3cnUHtRBgEYqZbGHkX89US3hE/edit?usp=sharing" />
+                  </li>
                 </ul>
               </Col>
               <Col md={8}>
@@ -389,6 +392,9 @@ const AccordionComponent = () => {
               <li className="list-inline-item flex-fill p-0 m-0">
                 <SocialIcon url="mailto:audluc44@gmail.com" />
               </li>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                    <SocialIcon url="https://docs.google.com/document/d/1mVVwXqePMeQ1aDZA3t3cnUHtRBgEYqZbGHkX89US3hE/edit?usp=sharing" />
+                  </li>
             </ul>
           </Card.Body>
         </Accordion.Collapse>
@@ -500,6 +506,9 @@ const AccordionComponent = () => {
               <li className="list-inline-item flex-fill p-0 m-0">
                 <SocialIcon url="mailto:audluc44@gmail.com" />
               </li>
+              <li className="list-inline-item flex-fill p-0 m-0">
+                    <SocialIcon url="https://docs.google.com/document/d/1mVVwXqePMeQ1aDZA3t3cnUHtRBgEYqZbGHkX89US3hE/edit?usp=sharing" />
+                  </li>
             </ul>
           </Card.Body>
         </Accordion.Collapse>
